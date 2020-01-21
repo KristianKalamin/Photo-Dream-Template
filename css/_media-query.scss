@@ -1,0 +1,156 @@
+@media screen and (max-width: 930px) {
+  nav {
+    #nav-logo {
+      width: 9.5%;
+      height: auto;
+    }
+
+    .menu-trigger {
+      display: block;
+      cursor: pointer;
+    }
+  }
+  ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  header {
+    .header-content {
+      .wrapper {
+        margin-top: 10%;
+        margin-left: 27%;
+      }
+    }
+
+    #show-more {
+      margin-top: 8.5%;
+      margin-left: 44%;
+    }
+  }
+
+  #about {
+    #circle-image {
+      width: 15%;
+      margin-left: 41%;
+    }
+
+    .text {
+      height: 400px;
+      padding-left: 2%;
+      padding-right: 2%;
+      font-size: 15px;
+    }
+  }
+
+  footer {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  nav {
+    #nav-logo {
+      width: 8%;
+      height: auto;
+    }
+  }
+  header {
+    .header-content {
+      .wrapper {
+        margin-left: 26%;
+      }
+    }
+  }
+
+  #home {
+    .home-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #about {
+    .text {
+      height: 700px;
+    }
+  }
+
+  #contact {
+    .contact-wrapper {
+      grid-template-columns: 60% 40%;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    #nav-logo {
+      width: 11%;
+      height: auto;
+    }
+  }
+
+  header {
+    .header-content {
+      .wrapper {
+        margin-left: 15%;
+      }
+    }
+
+    #show-more {
+      margin-left: 41.5%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    #nav-logo {
+      width: 15%;
+      height: auto;
+    }
+  }
+
+  header {
+    .header-content {
+      .wrapper {
+        margin-left: 0%;
+        margin-right: 0%;
+        max-width: 100%;
+      }
+    }
+
+    #show-more {
+      margin-left: 39%;
+    }
+  }
+
+  #about {
+    #circle-image {
+      width: 20%;
+      margin-left: 39%;
+    }
+    .text {
+      margin-top: -60px;
+      height: 900px;
+    }
+  }
+
+  #contact {
+    .contact-wrapper {
+      grid-template-columns: 1fr;
+      iframe {
+        height: 400px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  footer {
+    margin-top: 80%;
+    img {
+      width: 7%;
+    }
+  }
+}
